@@ -15,7 +15,9 @@ It processes all files in a directory, using a rolling XOR with your key.
 ### 1. Build
 
 Requires C++17 or newer.
--`g++ -std=c++17 xor.cpp -o xorc`
+```bash
+g++ -std=c++17 xor.cpp -o xorc
+```
 
 
 ### 2. Prepare Your Files
@@ -41,7 +43,8 @@ Follow the prompts:
 
 ```
 enc/dec: enc
-digital key (decimal, arbitrary length): 12345678901234567890```
+digital key (decimal, arbitrary length): 12345678901234567890
+```
 
 
 ## License
